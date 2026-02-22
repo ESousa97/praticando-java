@@ -1,178 +1,119 @@
-# 📚 Praticando Java
+# Praticando Java
 
-Este repositório contém códigos de prática para aprendizado da linguagem Java, cobrindo conceitos fundamentais desde variáveis até estruturas de controle e algoritmos.
+> Exemplos práticos de fundamentos Java com estrutura profissional de engenharia.
 
-## 🎯 Objetivo
-
-Este projeto tem como objetivo consolidar o aprendizado dos conceitos básicos da programação Java através de exemplos práticos e exercícios.
-
-## 📁 Estrutura do Projeto
-
-### 🔤 Conceitos Básicos
-
-#### `Main.java`
-- **Conceito**: Primeiro programa em Java
-- **Conteúdo**: Implementação clássica do "Hello, World!"
-- **Aprendizado**: Estrutura básica de uma classe Java e método main
-
-#### `Variaveis.java`
-- **Conceito**: Operações aritméticas básicas
-- **Conteúdo**: Demonstra as 4 operações fundamentais (+, -, *, /, %)
-- **Aprendizado**: Manipulação de variáveis inteiras e operadores aritméticos
-
-#### `TiposPrimitivos.java`
-- **Conceito**: Tipos de dados primitivos em Java
-- **Conteúdo**: Exemplos de todos os 8 tipos primitivos:
-  - `boolean` - valores lógicos (true/false)
-  - `byte` - inteiro de 8 bits (-128 a 127)
-  - `char` - caractere Unicode
-  - `short` - inteiro de 16 bits (-32,768 a 32,767)
-  - `int` - inteiro de 32 bits
-  - `long` - inteiro de 64 bits
-  - `float` - decimal de precisão simples
-  - `double` - decimal de precisão dupla
-- **Aprendizado**: Faixas de valores e quando usar cada tipo
-
-### 🔍 Operadores
-
-#### `OperadoresRelacionais.java`
-- **Conceito**: Operadores de comparação
-- **Conteúdo**: Demonstra todos os operadores relacionais:
-  - `==` (igualdade)
-  - `!=` (diferença)
-  - `>` (maior que)
-  - `<` (menor que)
-  - `>=` (maior ou igual)
-  - `<=` (menor ou igual)
-- **Aprendizado**: Como comparar valores e obter resultados boolean
-
-#### `PraticandoOpRe.java`
-- **Conceito**: Prática adicional com operadores relacionais
-- **Conteúdo**: Armazena resultados de comparações em variáveis boolean
-- **Aprendizado**: Uso prático de operadores relacionais em contexto real
-
-#### `OperadoresIncremento.java`
-- **Conceito**: Operadores de incremento e decremento
-- **Conteúdo**: Diferença entre pré-incremento (`++var`) e pós-incremento (`var++`)
-- **Aprendizado**: Como e quando o valor é modificado em cada caso
-
-#### Operadores Lógicos
-
-##### `OperadoresLogicosEE.java` (AND)
-- **Conceito**: Operador lógico AND (`&&`)
-- **Conteúdo**: Condição que só é verdadeira quando ambas as expressões são verdadeiras
-- **Aprendizado**: Lógica de conjunção
-
-##### `OperadoresLogicosOR.java` (OR)
-- **Conceito**: Operador lógico OR (`||`)
-- **Conteúdo**: Condição verdadeira quando pelo menos uma expressão é verdadeira
-- **Aprendizado**: Lógica de disjunção
-
-##### `OperadoresLogicosNot.java` (NOT)
-- **Conceito**: Operador lógico NOT (`!`)
-- **Conteúdo**: Inversão de valores boolean
-- **Aprendizado**: Negação lógica
-
-### 🌊 Estruturas de Controle
-
-#### `PraticandoIfElse.java`
-- **Conceito**: Estrutura condicional if-else
-- **Conteúdo**: Verifica maioridade usando diferentes idades
-- **Aprendizado**: Tomada de decisões baseada em condições
-
-#### `PraticandoSwitchCase.java`
-- **Conceito**: Estrutura switch-case
-- **Conteúdo**: Mesma lógica do if-else mas usando switch
-- **Aprendizado**: Alternativa ao if-else para múltiplas condições
-
-### 🎬 Projeto Prático
-
-#### `ScreenMatch.java`
-- **Conceito**: Aplicação dos conceitos aprendidos
-- **Conteúdo**: Sistema simples de informações sobre filmes
-- **Recursos utilizados**:
-  - Declaração de variáveis
-  - Diferentes tipos de dados (int, boolean, double, String)
-  - Concatenação de strings
-  - Saída formatada no console
-- **Aprendizado**: Integração de múltiplos conceitos em um projeto
-
-### 🧩 Algoritmos
-
-#### `StairClimber.java`
-- **Conceito**: Problema clássico de programação dinâmica
-- **Conteúdo**: Duas implementações para calcular quantas maneiras existem de subir escadas:
-  - **Iterativa**: Usando loop for (mais eficiente)
-  - **Memoização**: Usando recursão com cache (educacional)
-- **Problema**: Dado n degraus, quantas formas há de subir se você pode dar 1 ou 2 passos por vez?
-- **Aprendizado**: Otimização de algoritmos e pensamento recursivo
-
-## 🚀 Como Executar
-
-### Pré-requisitos
-- Java JDK 8 ou superior instalado
-- IDE ou editor de texto (recomendado: VS Code, IntelliJ, Eclipse)
-
-### Executando os programas
-
-1. **Compilar um arquivo:**
-```bash
-javac NomeDoArquivo.java
-```
-
-2. **Executar o programa:**
-```bash
-java NomeDoArquivo
-```
-
-### Exemplo prático:
-```bash
-# Compilar
-javac ScreenMatch.java
-
-# Executar
-java ScreenMatch
-```
-
-## 📖 Conceitos Aprendidos
-
-### ✅ Fundamentos
-- [x] Estrutura básica de uma classe Java
-- [x] Método main e sua importância
-- [x] Tipos primitivos e suas características
-- [x] Declaração e inicialização de variáveis
-
-### ✅ Operadores
-- [x] Operadores aritméticos (+, -, *, /, %)
-- [x] Operadores relacionais (==, !=, >, <, >=, <=)
-- [x] Operadores lógicos (&&, ||, !)
-- [x] Operadores de incremento/decremento (++, --)
-
-### ✅ Estruturas de Controle
-- [x] Estruturas condicionais (if-else)
-- [x] Estrutura de seleção múltipla (switch-case)
-- [x] Uso de break em switch
-
-### ✅ Conceitos Avançados
-- [x] Concatenação de strings
-- [x] Algoritmos recursivos
-- [x] Programação dinâmica (memoização)
-- [x] Otimização de algoritmos
-
-## 🎓 Próximos Passos
-
-Para continuar o aprendizado, considere estudar:
-- Loops (for, while, do-while)
-- Arrays e Collections
-- Métodos e funções
-- Orientação a Objetos (classes, objetos, herança)
-- Tratamento de exceções
-- Entrada de dados do usuário (Scanner)
-
-## 👤 Autor
-
-Este repositório foi criado como parte do meu processo de aprendizado em Java.
+![CI](https://github.com/enoquesousa/praticando-java/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/enoquesousa/praticando-java)
+![Java](https://img.shields.io/badge/java-%3E%3D21-blue)
+![Last Commit](https://img.shields.io/github/last-commit/enoquesousa/praticando-java)
+![Open Issues](https://img.shields.io/github/issues/enoquesousa/praticando-java)
 
 ---
 
-*"A prática leva à perfeição. Continue codificando! 💻"*
+Projeto educacional para prática de fundamentos de Java com foco em operadores, estruturas de controle e resolução de problemas de algoritmo.
+O repositório foi organizado com padrão de produção para facilitar manutenção, revisão e evolução incremental.
+
+## Demonstração
+
+Exemplo de execução de classe principal:
+
+```bash
+bash scripts/tasks.sh run io.github.enoquesousa.praticandojava.Main
+```
+
+Exemplo de saída:
+
+```text
+Hello, World!
+```
+
+## Stack Tecnológico
+
+- Java 21 LTS: linguagem e runtime
+- javac: compilação e linting via `-Xlint:all -Werror`
+- GitHub Actions: pipeline de CI
+- Dependabot: atualização automática de workflows
+
+## Pré-requisitos
+
+- Java JDK 21+
+- Bash (Linux/macOS) ou PowerShell 7+ (Windows)
+
+## Instalação e Uso
+
+```bash
+git clone https://github.com/enoquesousa/praticando-java.git
+cd praticando-java
+cp .env.example .env
+bash scripts/tasks.sh validate
+```
+
+No Windows PowerShell:
+
+```powershell
+git clone https://github.com/enoquesousa/praticando-java.git
+cd praticando-java
+Copy-Item .env.example .env
+./scripts/tasks.ps1 -Task validate
+```
+
+Executar classe específica:
+
+```bash
+bash scripts/tasks.sh run io.github.enoquesousa.praticandojava.examples.ScreenMatch
+```
+
+## Scripts Disponíveis
+
+| Script | Descrição |
+|---|---|
+| `build` | Compila o código em `out/main` |
+| `lint` | Valida código com `javac -Xlint:all -Werror` |
+| `test` | Executa suíte unitária em `tests/unit/java` |
+| `run` | Compila e executa classe informada |
+| `clean` | Remove artefatos de `out/` |
+| `validate` | Executa `clean + lint + test + build` |
+
+## Arquitetura
+
+```text
+.
+├── src/main/java/io/github/enoquesousa/praticandojava
+│   ├── Main.java
+│   ├── algorithms/
+│   ├── examples/
+│   └── shared/
+├── tests/unit/java/io/github/enoquesousa/praticandojava
+├── scripts/
+├── .github/
+└── docs/
+```
+
+Detalhes em `docs/architecture.md`.
+
+## API Reference
+
+Não se aplica: projeto de aplicações de console sem API HTTP.
+
+## Roadmap
+
+- [x] Reorganização estrutural por pacotes
+- [x] Pipeline de qualidade local (`lint`, `test`, `build`)
+- [x] CI no GitHub Actions
+- [x] Templates de issue e PR
+- [ ] Expandir cobertura de testes para todos os exemplos
+- [ ] Adicionar novos módulos didáticos (loops, collections, exceptions)
+
+## Contribuindo
+
+Veja `CONTRIBUTING.md` para setup, padrão de commits e fluxo de pull request.
+
+## Licença
+
+Este projeto está sob licença MIT. Consulte `LICENSE`.
+
+## Autor
+
+- Enoque Sousa
+- Portfólio: https://enoquesousa.vercel.app
+- GitHub: https://github.com/enoquesousa

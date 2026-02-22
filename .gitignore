@@ -1,0 +1,28 @@
+# Internal reports
+BASELINE.md
+FINAL.md
+
+# Java build outputs
+out/
+*.class
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs and temp
+*.log
+*.tmp
+
+# Coverage
+coverage/
+
+# IDE / editors
+.idea/
+.vscode/settings.json
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db

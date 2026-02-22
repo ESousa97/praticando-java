@@ -1,0 +1,9 @@
+# Global owner
+* @enoquesousa
+
+# Source and quality ownership
+/src/ @enoquesousa
+/tests/ @enoquesousa
+/scripts/ @enoquesousa
+/.github/ @enoquesousa
+/docs/ @enoquesousa

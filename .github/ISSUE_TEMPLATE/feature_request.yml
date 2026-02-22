@@ -1,0 +1,29 @@
+name: Feature Request
+description: Sugerir melhoria funcional para o projeto
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Aviso: repositório arquivado
+        Este repositório não está mais ativo e permanece público apenas para estudo.
+        Não há garantia de resposta, revisão ou correção.
+  - type: input
+    id: problem
+    attributes:
+      label: Problema que a feature resolve
+      placeholder: Ex.: Falta exemplo de loops for/while
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta de solução
+      placeholder: Descreva a mudança proposta e o impacto esperado
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      placeholder: Outras abordagens possíveis

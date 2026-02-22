@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Projeto arquivado
+    url: https://github.com/enoquesousa/praticando-java
+    about: Repositório arquivado e mantido público apenas para estudo. Não há garantia de resposta, revisão ou correção.
+  - name: Segurança
+    url: https://github.com/enoquesousa/praticando-java/security/policy
+    about: Reportes de segurança devem seguir SECURITY.md
